@@ -21,10 +21,10 @@ void Laboratorio::mostrar(){
 
     for (size_t i = 0; i < cont; i++){
         Computadora &c = arreglo[i];
-        cout<<"Nombre: "<<c.getModelo();
-        cout<<"Procesador: "<<c.getProcesador();
-        cout<<"Sistema operativo: "<<c.getSistema();
-        cout<<"Memoria Ram: "<<c.getRam();
+        cout<<"Nombre: "<<c.getModelo()<<endl;
+        cout<<"Procesador: "<<c.getProcesador()<<endl;
+        cout<<"Sistema operativo: "<<c.getSistema()<<endl;
+        cout<<"Memoria Ram: "<<c.getRam()<<endl;
         cout<<endl<<endl;
 
     }

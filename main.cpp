@@ -7,30 +7,29 @@ using namespace std;
 int main(){
 
     Computadora c1= Computadora("Lenovo 3 R7","AMD Ryzen 7 ","Windows 10 pro",16);
+    Computadora c3= Computadora("Dell Gaming G5", "AMD Ryzen 5","Windows 10",8);
 
     Computadora c2; //constructor base
+    Computadora c4;
 
-    Laboratorio lab;
-    lab.agregarComputadora(c1);
-    lab.agregarComputadora(c2);
-
-
-    
     c2.setModelo( "ASUS ROG Strix G");
     c2.setProcesador("Core i5-9300H");
     c2.setSistema("Windows 10  Pro");
     c2.setRam(12);
 
-    /*cout<<c2.getModelo()<<endl;
-    cout<<c2.getProcesador()<<endl;
-    cout<<c2.getSistema()<<endl;
-    cout<<c2.getRam();
+    c4.setModelo( "Lenovo ThinkPad L15");
+    c4.setProcesador("Intel Core i5-10210U");
+    c4.setSistema("Windows 10 Pro");
+    c4.setRam(8);
 
-    cout<<endl<<endl;
-    cout<<c1.getModelo()<<endl;
-    cout<<c1.getProcesador()<<endl;
-    cout<<c1.getSistema()<<endl;
-    cout<<c1.getRam();*/
+    Laboratorio lab;
+    lab.agregarComputadora(c1);
+    lab.agregarComputadora(c2);
+    lab.agregarComputadora(c3);
+    lab.agregarComputadora(c4);
+
+
+    lab.mostrar();
      
     return 0;
 }
