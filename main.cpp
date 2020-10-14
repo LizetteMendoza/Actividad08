@@ -12,13 +12,13 @@ int main(){
     Computadora c2; //constructor base
     Computadora c4;
 
-    c2.setModelo( "ASUS ROG Strix G");
-    c2.setProcesador("Core i5-9300H");
-    c2.setSistema("Windows 10  Pro");
+    c2.setModelo("ASUS ROG Strix G");
+    c2.setProcesador("i Core i5-9");
+    c2.setSistema("Windows 10 Pro");
     c2.setRam(12);
 
-    c4.setModelo( "Lenovo ThinkPad L15");
-    c4.setProcesador("Intel Core i5-10210U");
+    c4.setModelo("Lenovo ThinkPad L15");
+    c4.setProcesador("i Core i5-10");
     c4.setSistema("Windows 10 Pro");
     c4.setRam(8);
 
@@ -30,6 +30,8 @@ int main(){
 
 
     lab.mostrar();
+
+    //cout<<c4;
      
     return 0;
 }
