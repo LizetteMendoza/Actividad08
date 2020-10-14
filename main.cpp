@@ -29,10 +29,7 @@ int main(){
     lab.agregarComputadora(c4);
 
 
-    lab << c2;
-    lab << c3;
-    
-
+    lab << c2 << c3;
 
     //cout<<c4;
 
