@@ -2,6 +2,7 @@
 #define COMPUTADORA_H
 
 #include<iostream>
+#include<iomanip>
 using namespace std; 
 
 
@@ -24,10 +25,19 @@ public:
    string getSistema();
    void setRam(int v);
    int getRam();
+
+   friend ostream& operator <<(ostream&out, const Computadora&c)
+   {    
+        out<<left;
+        out<<setw(22)<<c.modelo;
+        out<<setw(15)<<c.procesador;
+        out<<setw(22)<<c.sistema;
+        out<<setw(5)<<c.ram;
+        out<<endl;
+       return out;
+   } 
    
 };
-
-
 
 #endif
 
