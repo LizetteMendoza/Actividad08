@@ -24,14 +24,24 @@ int main(){
 
     Laboratorio lab;
     lab.agregarComputadora(c1);
-    lab.agregarComputadora(c2);
-    lab.agregarComputadora(c3);
+    //lab.agregarComputadora(c2);
+    //lab.agregarComputadora(c3);
     lab.agregarComputadora(c4);
 
 
-    lab.mostrar();
+    lab << c2;
+    lab << c3;
+    
+
 
     //cout<<c4;
+
+    Computadora c5;
+    cin>>c5;
+    lab << c5;
+    //lab.agregarComputadora(c5);
+
+    lab.mostrar();
      
     return 0;
 }
