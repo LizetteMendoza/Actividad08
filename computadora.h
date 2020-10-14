@@ -36,6 +36,24 @@ public:
         out<<endl;
        return out;
    } 
+
+ 
+   friend istream&  operator >>(istream&in, Computadora&c)
+   {
+       string temp;
+       int ram;
+
+       cout<<"Modelo: ";
+       getline(cin, c.modelo);
+       cout<<"Procesador: ";
+       getline(cin, c.procesador);
+       cout<<"Sistema operativo:";
+       getline(cin, c.sistema);
+       cout<<"Ram: ";
+       cin>>c.ram;
+
+        return in;
+   }
    
 };
 
