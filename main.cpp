@@ -6,7 +6,10 @@ using namespace std;
 
 int main(){
 
-    Computadora c1= Computadora("Lenovo 3 R7","AMD Ryzen 7 ","Windows 10 pro",16);
+    Laboratorio lab;
+    lab.recuperar();
+
+   /* Computadora c1= Computadora("Lenovo 3 R7","AMD Ryzen 7 ","Windows 10 pro",16);
     Computadora c3= Computadora("Dell Gaming G5", "AMD Ryzen 5","Windows 10",8);
 
     Computadora c2; //constructor base
@@ -39,7 +42,7 @@ int main(){
     //lab.agregarComputadora(c5);
 
     lab.respaldar_tabla();
-    lab.respaldar();
+    lab.respaldar();*/
 
     lab.mostrar();
      
