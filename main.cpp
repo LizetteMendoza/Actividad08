@@ -38,6 +38,8 @@ int main(){
     lab << c5;
     //lab.agregarComputadora(c5);
 
+    lab.respaldar();
+
     lab.mostrar();
      
     return 0;
