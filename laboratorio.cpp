@@ -40,9 +40,15 @@ void Laboratorio::mostrar(){
 
 }
 
-void Laboratorio::respaldar(){
-    ofstream archivo("Computadoras.txt");
+void Laboratorio::respaldar_tabla(){
+    ofstream archivo("Computadoras_tabla.txt");
     if(archivo.is_open()){
+        archivo<<left;
+        archivo<<setw(22)<<"Modelo";
+        archivo<<setw(15)<<"Procesador";
+        archivo<<setw(22)<<"Sistema operativo";
+        archivo<<setw(5)<<"Ram";
+        archivo<<endl;
         for (size_t i = 0; i < cont; i++){
             Computadora &c = arreglo[i];
             archivo<<c;
