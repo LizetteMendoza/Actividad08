@@ -28,17 +28,18 @@ int main(){
     //lab.agregarComputadora(c3);
     lab.agregarComputadora(c4);
 
-
+    
     lab << c2 << c3;
 
     //cout<<c4;
 
     Computadora c5;
     cin>>c5;
-    lab << c5;
+    lab<<c5;
     //lab.agregarComputadora(c5);
 
     lab.respaldar_tabla();
+    lab.respaldar();
 
     lab.mostrar();
      
