@@ -38,7 +38,7 @@ int main(){
     lab << c5;
     //lab.agregarComputadora(c5);
 
-    lab.respaldar();
+    lab.respaldar_tabla();
 
     lab.mostrar();
      
