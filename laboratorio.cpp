@@ -56,3 +56,17 @@ void Laboratorio::respaldar_tabla(){
     }
     archivo.close();
 }
+
+void Laboratorio::respaldar(){
+    ofstream archivo("Computadoras.txt");
+    if(archivo.is_open()){
+        for (size_t i = 0; i < cont; i++){
+            Computadora &c = arreglo[i];
+            archivo<<c.getModelo()<<endl;
+            archivo<<c.getProcesador()<<endl;
+            archivo<<c.getSistema()<<endl;
+            archivo<<c.getRam()<<endl;
+        }
+    }
+    archivo.close();
+}
