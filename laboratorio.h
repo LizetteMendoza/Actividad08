@@ -13,6 +13,7 @@ class Laboratorio
     Laboratorio();
     void agregarComputadora(const Computadora &c);
     void mostrar();
+    void respaldar();
 
     friend Laboratorio& operator<<(Laboratorio&l, const Computadora& c)
     {
