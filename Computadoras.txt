@@ -1,0 +1,20 @@
+Lenovo 3 R7
+AMD Ryzen 7 
+Windows 10 pro
+16
+Lenovo ThinkPad L15
+i Core i5-10
+Windows 10 Pro
+8
+ASUS ROG Strix G
+i Core i5-9
+Windows 10 Pro
+12
+Dell Gaming G5
+AMD Ryzen 5
+Windows 10
+8
+Acer AN515-43-R261
+Ryzen 5 2500U
+Windows 10
+8
